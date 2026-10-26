@@ -56,14 +56,6 @@
 		"check": { "driverId": "vettel", "constructorId": "red_bull", "circuitId": "sepang" }
 	},
 	{
-		"text": "Oh deer!",
-		"speaker": "Juan Pablo Montoya",
-		"team": "Williams",
-		"gp": "Austrian GP",
-		"year": 2001,
-		"check": { "driverId": "montoya", "constructorId": "williams", "circuitId": "a1ring" }
-	},
-	{
 		"text": "That was a sexy lap.",
 		"speaker": "Lewis Hamilton",
 		"team": "Mercedes",
@@ -128,6 +120,14 @@
 		"check": { "driverId": "hamilton", "constructorId": "mercedes", "circuitId": "red_bull_ring" }
 	},
 	{
+		"text": "Is anyone else reporting rain? I think it's sweat from the inside of my helmet.",
+		"speaker": "George Russell",
+		"team": "Mercedes",
+		"gp": "Spanish GP",
+		"year": 2023,
+		"check": { "driverId": "russell", "constructorId": "mercedes", "circuitId": "catalunya" }
+	},
+	{
 		"text": "Is there a leakage? I have the seat full of water.",
 		"speaker": "Charles Leclerc",
 		"team": "Ferrari",
@@ -142,14 +142,6 @@
 		"gp": "Australian GP",
 		"year": 2025,
 		"check": { "driverId": "leclerc", "constructorId": "ferrari", "circuitId": "albert_park" }
-	},
-	{
-		"text": "Best podium in my career, guys. You cannot imagine how this tastes.",
-		"speaker": "Carlos Sainz",
-		"team": "Williams",
-		"gp": "Azerbaijan GP",
-		"year": 2025,
-		"check": { "driverId": "sainz", "constructorId": "williams", "circuitId": "baku" }
 	},
 	{
 		"text": "If you speak to me every lap, I will disconnect the radio.",
