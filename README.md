@@ -4,7 +4,15 @@ A [MagicMirror²](https://magicmirror.builders/) module that shows a randomly pi
 
 ## Installation
 
-1. Copy the `MMM-F1TeamRadio` folder into `~/MagicMirror/modules/`.
+1. Clone the repository into your MagicMirror modules folder (no `npm install` needed, the module has no dependencies):
+
+```bash
+cd ~/MagicMirror/modules
+git clone https://github.com/rock14r/MMM-F1TeamRadio.git
+```
+
+To update later, run `git pull` inside the `MMM-F1TeamRadio` folder.
+
 2. Add the module to `config/config.js`:
 
 ```js
@@ -69,3 +77,11 @@ For each entry it checks that the race exists, that the driver took part in it a
 The identifiers (`driverId`, `constructorId`, `circuitId`) are the Ergast/Jolpica ones, for example `raikkonen`, `red_bull`, `yas_marina`. With `--strict`, warnings (such as a duplicated message) also fail the check. Jolpica rate-limits requests (about 500 per hour), which is not a problem for normal lists.
 
 **What it does not verify:** the script confirms the *context* (who, where, when, with which team), not that the message was actually said. Check the wording yourself against a video or article before adding an entry.
+
+## Disclaimer
+
+This is an unofficial project and is not affiliated with Formula 1 companies. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing B.V.
+
+## License
+
+[MIT](LICENSE)
