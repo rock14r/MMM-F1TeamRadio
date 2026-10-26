@@ -8,12 +8,12 @@
  *   - the driver drove for the given team in that race.
  *
  * NOTE: the script verifies the CONTEXT (who, where, when, with which team),
- * NOT the wording of the message. For that you need a source: fill in the "source" field.
+ * NOT the wording of the message. Check the wording yourself against a video or article.
  *
  * Usage:
  *   node verify-radios.js                 # checks ./radios.json
  *   node verify-radios.js other.json      # checks another file
- *   node verify-radios.js --strict        # warnings (e.g. missing "source") also fail the check
+ *   node verify-radios.js --strict        # warnings (e.g. duplicate messages) also fail the check
  *
  * Exit codes: 0 = all good, 1 = inconsistencies found, 2 = API unreachable.
  * Requires Node 18+ (built-in fetch). No external dependencies.
@@ -56,10 +56,6 @@ async function checkEntry(entry) {
 	const problems = [];
 	const warnings = [];
 	let info = "";
-
-	if (!entry.source) {
-		warnings.push('missing "source" (link to a video/article that reports the message)');
-	}
 
 	const c = entry.check || {};
 	if (!entry.year || !c.driverId || !c.circuitId) {

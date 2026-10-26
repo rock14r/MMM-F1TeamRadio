@@ -5,7 +5,6 @@
 		"team": "McLaren",
 		"gp": "Japanese GP",
 		"year": 2015,
-		"source": "",
 		"check": { "driverId": "alonso", "constructorId": "mclaren", "circuitId": "suzuka" }
 	},
 	{
@@ -14,7 +13,6 @@
 		"team": "Lotus",
 		"gp": "Abu Dhabi GP",
 		"year": 2012,
-		"source": "",
 		"check": { "driverId": "raikkonen", "constructorId": "lotus_f1", "circuitId": "yas_marina" }
 	},
 	{
@@ -23,7 +21,6 @@
 		"team": "Ferrari",
 		"gp": "German GP",
 		"year": 2010,
-		"source": "",
 		"check": { "driverId": "massa", "constructorId": "ferrari", "circuitId": "hockenheimring" }
 	},
 	{
@@ -32,7 +29,6 @@
 		"team": "Mercedes",
 		"gp": "Russian GP",
 		"year": 2018,
-		"source": "",
 		"check": { "driverId": "bottas", "constructorId": "mercedes", "circuitId": "sochi" }
 	},
 	{
@@ -41,7 +37,6 @@
 		"team": "Mercedes",
 		"gp": "British GP",
 		"year": 2020,
-		"source": "",
 		"check": { "driverId": "hamilton", "constructorId": "mercedes", "circuitId": "silverstone", "round": 4 }
 	},
 	{
@@ -50,7 +45,6 @@
 		"team": "Mercedes",
 		"gp": "Abu Dhabi GP",
 		"year": 2021,
-		"source": "",
 		"check": { "driverId": "hamilton", "constructorId": "mercedes", "circuitId": "yas_marina" }
 	},
 	{
@@ -59,7 +53,6 @@
 		"team": "Red Bull",
 		"gp": "Malaysian GP",
 		"year": 2013,
-		"source": "",
 		"check": { "driverId": "vettel", "constructorId": "red_bull", "circuitId": "sepang" }
 	}
 ]

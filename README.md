@@ -43,13 +43,11 @@ The list lives in `radios.json`. The file is re-read every time the message chan
 	"team": "McLaren",
 	"gp": "Japanese GP",
 	"year": 2015,
-	"source": "https://...",
 	"check": { "driverId": "alonso", "constructorId": "mclaren", "circuitId": "suzuka" }
 }
 ```
 
 - `text` is required; `speaker`, `team`, `gp` and `year` are for display only.
-- `source` is a link to a video or article that reports the message (so you can trace where it came from).
 - `check` holds the identifiers used by the verification script (see below). If the same circuit hosted two races in one year (e.g. Silverstone 2020), add `"round": 4`.
 
 ## Verifying the list
@@ -68,6 +66,6 @@ For each entry it checks that the race exists, that the driver took part in it a
     Japanese Grand Prix 2015 (round 16) · Fernando Alonso · McLaren · P11 (...)
 ```
 
-The identifiers (`driverId`, `constructorId`, `circuitId`) are the Ergast/Jolpica ones, for example `raikkonen`, `red_bull`, `yas_marina`. With `--strict`, warnings (such as a missing `source`) also fail the check. Jolpica rate-limits requests (about 500 per hour), which is not a problem for normal lists.
+The identifiers (`driverId`, `constructorId`, `circuitId`) are the Ergast/Jolpica ones, for example `raikkonen`, `red_bull`, `yas_marina`. With `--strict`, warnings (such as a duplicated message) also fail the check. Jolpica rate-limits requests (about 500 per hour), which is not a problem for normal lists.
 
-**What it does not verify:** the script confirms the *context* (who, where, when, with which team), not that the message was actually said. For that you need a source, which is what the `source` field is for.
+**What it does not verify:** the script confirms the *context* (who, where, when, with which team), not that the message was actually said. Check the wording yourself against a video or article before adding an entry.
