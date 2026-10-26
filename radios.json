@@ -176,8 +176,8 @@
 		"check": { "driverId": "sainz", "constructorId": "ferrari", "circuitId": "marina_bay" }
 	},
 	{
-		"text": "Sorry, Max. Radio is extremely poor. If you would accept pitting behind Leclerc, say nothing.",
-		"speaker": "Gianpiero Lambiase to Max Verstappen",
+		"text": "Well done, Max. It's a shame we can't hear you.",
+		"speaker": "Laurent Mekies to Max Verstappen",
 		"team": "Red Bull",
 		"gp": "Singapore GP",
 		"year": 2026,
