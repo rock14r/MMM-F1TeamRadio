@@ -54,5 +54,141 @@
 		"gp": "Malaysian GP",
 		"year": 2013,
 		"check": { "driverId": "vettel", "constructorId": "red_bull", "circuitId": "sepang" }
+	},
+	{
+		"text": "Oh deer!",
+		"speaker": "Juan Pablo Montoya",
+		"team": "Williams",
+		"gp": "Austrian GP",
+		"year": 2001,
+		"check": { "driverId": "montoya", "constructorId": "williams", "circuitId": "a1ring" }
+	},
+	{
+		"text": "That was a sexy lap.",
+		"speaker": "Lewis Hamilton",
+		"team": "Mercedes",
+		"gp": "Bahrain GP",
+		"year": 2016,
+		"check": { "driverId": "hamilton", "constructorId": "mercedes", "circuitId": "bahrain" }
+	},
+	{
+		"text": "Esteban's my favourite. I love this guy.",
+		"speaker": "Daniel Ricciardo",
+		"team": "Red Bull",
+		"gp": "German GP",
+		"year": 2016,
+		"check": { "driverId": "ricciardo", "constructorId": "red_bull", "circuitId": "hockenheimring" }
+	},
+	{
+		"text": "I'm driving like a grandma.",
+		"speaker": "Max Verstappen",
+		"team": "Red Bull",
+		"gp": "Hungarian GP",
+		"year": 2016,
+		"check": { "driverId": "max_verstappen", "constructorId": "red_bull", "circuitId": "hungaroring" }
+	},
+	{
+		"text": "No more radio for the rest of the race.",
+		"speaker": "Fernando Alonso",
+		"team": "McLaren",
+		"gp": "Belgian GP",
+		"year": 2017,
+		"check": { "driverId": "alonso", "constructorId": "mclaren", "circuitId": "spa" }
+	},
+	{
+		"text": "Oh, thank you. I'm going to pee in your seat!",
+		"speaker": "Jenson Button",
+		"team": "McLaren",
+		"gp": "Monaco GP",
+		"year": 2017,
+		"check": { "driverId": "button", "constructorId": "mclaren", "circuitId": "monaco" }
+	},
+	{
+		"text": "Which position is Lance? Great move into 1!",
+		"speaker": "Fernando Alonso",
+		"team": "Aston Martin",
+		"gp": "Miami GP",
+		"year": 2023,
+		"check": { "driverId": "alonso", "constructorId": "aston_martin", "circuitId": "miami" }
+	},
+	{
+		"text": "He's intimidating me.",
+		"speaker": "Carlos Sainz",
+		"team": "Ferrari",
+		"gp": "Austrian GP",
+		"year": 2023,
+		"check": { "driverId": "sainz", "constructorId": "ferrari", "circuitId": "red_bull_ring" }
+	},
+	{
+		"text": "Lewis the car is bad, we know. Please drive it.",
+		"speaker": "Toto Wolff to Lewis Hamilton",
+		"team": "Mercedes",
+		"gp": "Austrian GP",
+		"year": 2023,
+		"check": { "driverId": "hamilton", "constructorId": "mercedes", "circuitId": "red_bull_ring" }
+	},
+	{
+		"text": "Is there a leakage? I have the seat full of water.",
+		"speaker": "Charles Leclerc",
+		"team": "Ferrari",
+		"gp": "Australian GP",
+		"year": 2025,
+		"check": { "driverId": "leclerc", "constructorId": "ferrari", "circuitId": "albert_park" }
+	},
+	{
+		"text": "Must be the water.",
+		"speaker": "Bryan Bozzi to Charles Leclerc",
+		"team": "Ferrari",
+		"gp": "Australian GP",
+		"year": 2025,
+		"check": { "driverId": "leclerc", "constructorId": "ferrari", "circuitId": "albert_park" }
+	},
+	{
+		"text": "Best podium in my career, guys. You cannot imagine how this tastes.",
+		"speaker": "Carlos Sainz",
+		"team": "Williams",
+		"gp": "Azerbaijan GP",
+		"year": 2025,
+		"check": { "driverId": "sainz", "constructorId": "williams", "circuitId": "baku" }
+	},
+	{
+		"text": "If you speak to me every lap, I will disconnect the radio.",
+		"speaker": "Fernando Alonso",
+		"team": "Aston Martin",
+		"gp": "Singapore GP",
+		"year": 2025,
+		"check": { "driverId": "alonso", "constructorId": "aston_martin", "circuitId": "marina_bay" }
+	},
+	{
+		"text": "Let's add that to the words of wisdom.",
+		"speaker": "Charles Leclerc",
+		"team": "Ferrari",
+		"gp": "Australian GP",
+		"year": 2025,
+		"check": { "driverId": "leclerc", "constructorId": "ferrari", "circuitId": "albert_park" }
+	},
+	{
+		"text": "This is my first 'Smooth Operation' in Williams... and not the last!",
+		"speaker": "Carlos Sainz",
+		"team": "Williams",
+		"gp": "Azerbaijan GP",
+		"year": 2025,
+		"check": { "driverId": "sainz", "constructorId": "williams", "circuitId": "baku" }
+	},
+	{
+		"text": "You know what, this is my first smooth operation in Ferrari!",
+		"speaker": "Carlos Sainz",
+		"team": "Ferrari",
+		"gp": "Singapore GP",
+		"year": 2023,
+		"check": { "driverId": "sainz", "constructorId": "ferrari", "circuitId": "marina_bay" }
+	},
+	{
+		"text": "Lando, this is Zak from McLaren. Is this the world champion hotline? We did it! We did it!",
+		"speaker": "Zak Brown to Lando Norris",
+		"team": "McLaren",
+		"gp": "Abu Dhabi GP",
+		"year": 2025,
+		"check": { "driverId": "norris", "constructorId": "mclaren", "circuitId": "yas_marina" }
 	}
 ]
