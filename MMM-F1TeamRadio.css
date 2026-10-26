@@ -1,0 +1,22 @@
+.f1radio {
+	max-width: 420px;
+	text-align: left;
+}
+
+.f1radio-header {
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	margin-bottom: 6px;
+	border-bottom: 1px solid #666;
+	padding-bottom: 4px;
+}
+
+.f1radio-text {
+	line-height: 1.25;
+	font-style: italic;
+}
+
+.f1radio-meta {
+	margin-top: 6px;
+	text-align: right;
+}
