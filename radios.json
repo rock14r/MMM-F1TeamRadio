@@ -176,6 +176,14 @@
 		"check": { "driverId": "sainz", "constructorId": "ferrari", "circuitId": "marina_bay" }
 	},
 	{
+		"text": "Sorry, Max. Radio is extremely poor. If you would accept pitting behind Leclerc, say nothing.",
+		"speaker": "Gianpiero Lambiase to Max Verstappen",
+		"team": "Red Bull",
+		"gp": "Singapore GP",
+		"year": 2026,
+		"check": { "driverId": "max_verstappen", "constructorId": "red_bull", "circuitId": "marina_bay" }
+	},
+	{
 		"text": "Lando, this is Zak from McLaren. Is this the world champion hotline? We did it! We did it!",
 		"speaker": "Zak Brown to Lando Norris",
 		"team": "McLaren",
