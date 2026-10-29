@@ -93,7 +93,7 @@ Module.register("MMM-F1TeamRadio", {
 		}
 
 		const quote = document.createElement("div");
-		quote.className = "f1radio-text bright medium";
+		quote.className = "f1radio-text bright medium light";
 		quote.textContent = "“" + r.text + "”";
 		wrapper.appendChild(quote);
 
