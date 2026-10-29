@@ -190,5 +190,45 @@
 		"gp": "Abu Dhabi GP",
 		"year": 2025,
 		"check": { "driverId": "norris", "constructorId": "mclaren", "circuitId": "yas_marina" }
+	},
+	{
+		"text": "All the time you have to leave a space!",
+		"speaker": "Fernando Alonso",
+		"team": "Ferrari",
+		"gp": "Bahrain GP",
+		"year": 2012,
+		"check": { "driverId": "alonso", "constructorId": "ferrari", "circuitId": "bahrain" }
+	},
+	{
+		"text": "I am stupid.",
+		"speaker": "Charles Leclerc",
+		"team": "Ferrari",
+		"gp": "Azerbaijan GP",
+		"year": 2019,
+		"check": { "driverId": "leclerc", "constructorId": "ferrari", "circuitId": "baku" }
+	},
+	{
+		"text": "To whom it may concern – f*** you.",
+		"speaker": "Valtteri Bottas",
+		"team": "Mercedes",
+		"gp": "Australian GP",
+		"year": 2019,
+		"check": { "driverId": "bottas", "constructorId": "mercedes", "circuitId": "albert_park" }
+	},
+	{
+		"text": "And for anyone who thought I left… I never left. Just moved aside for a while.",
+		"speaker": "Daniel Ricciardo",
+		"team": "McLaren",
+		"gp": "Italian GP",
+		"year": 2021,
+		"check": { "driverId": "ricciardo", "constructorId": "mclaren", "circuitId": "monza" }
+	},
+	{
+		"text": "Have a tea break while you're at it.",
+		"speaker": "Lewis Hamilton",
+		"team": "Ferrari",
+		"gp": "Miami GP",
+		"year": 2025,
+		"check": { "driverId": "hamilton", "constructorId": "ferrari", "circuitId": "miami" }
 	}
 ]
