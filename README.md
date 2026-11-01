@@ -2,6 +2,8 @@
 
 A [MagicMirror²](https://magicmirror.builders/) module that shows a randomly picked, historic F1 team radio message in the position of your choice. The message changes every few minutes.
 
+<img width="409" height="132" alt="Screenshot 2026-11-01 110459" src="https://github.com/user-attachments/assets/db1fed3e-a383-4d87-829b-fabab13ac702" />
+
 ## Installation
 
 1. Clone the repository into your MagicMirror modules folder (no `npm install` needed, the module has no dependencies):
