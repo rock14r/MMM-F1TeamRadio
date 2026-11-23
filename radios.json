@@ -262,5 +262,21 @@
 		"gp": "São Paulo GP",
 		"year": 2026,
 		"check": { "driverId": "russell", "constructorId": "mercedes", "circuitId": "interlagos" }
+	},
+	{
+		"text": "Do I still keep going or not?\n— No, it's the chequered flag. You are lapped.",
+		"speaker": "Lewis Hamilton and Carlo Santi",
+		"team": "Ferrari",
+		"gp": "São Paulo GP",
+		"year": 2026,
+		"check": { "driverId": "hamilton", "constructorId": "ferrari", "circuitId": "interlagos" }
+	},
+	{
+		"text": "Oscar, you're doing a great race, mate. Let's be careful around our teammate.\n— Stop telling me to f***ing be careful.",
+		"speaker": "Tom Stallard and Oscar Piastri",
+		"team": "McLaren",
+		"gp": "Las Vegas GP",
+		"year": 2026,
+		"check": { "driverId": "piastri", "constructorId": "mclaren", "circuitId": "vegas" }
 	}
 ]

@@ -14,6 +14,7 @@
 .f1radio-text {
 	line-height: 1.25;
 	font-style: italic;
+	white-space: pre-line;
 }
 
 .f1radio-meta {
