@@ -17,6 +17,10 @@
 	white-space: pre-line;
 }
 
+.f1radio-reply {
+	color: #cfe8ff;
+}
+
 .f1radio-meta {
 	margin-top: 6px;
 	text-align: right;

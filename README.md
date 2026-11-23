@@ -41,6 +41,7 @@ To update later, run `git pull` inside the `MMM-F1TeamRadio` folder.
 | `avoidRepeat` | `true` | Never show the same message twice in a row |
 | `showMeta` | `true` | Show driver, team, GP and year |
 | `showIcon` | `true` | Show the headset icon next to the title |
+| `replyColor` | `null` | Colour of the reply lines in dialogues (`null` = light blue `#cfe8ff` from the CSS) |
 
 ## Dynamic list
 
@@ -58,6 +59,7 @@ The list lives in `radios.json`. The file is re-read every time the message chan
 ```
 
 - `text` is required; `speaker`, `team`, `gp` and `year` are for display only.
+- For a back-and-forth, put the lines in one `text` separated by `\n`, and start each reply with `"— "`: reply lines are shown in a different colour (see `replyColor`). Example: `"Do I still keep going or not?\n— No, it's the chequered flag. You are lapped."`
 - `check` holds the identifiers used by the verification script (see below). If the same circuit hosted two races in one year (e.g. Silverstone 2020), add `"round": 4`.
 
 ## Verifying the list
