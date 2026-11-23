@@ -230,5 +230,37 @@
 		"gp": "Miami GP",
 		"year": 2025,
 		"check": { "driverId": "hamilton", "constructorId": "ferrari", "circuitId": "miami" }
+	},
+	{
+		"text": "Ha ha! Well done! My god…",
+		"speaker": "Max Verstappen",
+		"team": "Red Bull",
+		"gp": "Las Vegas GP",
+		"year": 2026,
+		"check": { "driverId": "max_verstappen", "constructorId": "red_bull", "circuitId": "vegas" }
+	},
+	{
+		"text": "Charles, I want to see you after the race before everything.",
+		"speaker": "Frédéric Vasseur to Charles Leclerc",
+		"team": "Ferrari",
+		"gp": "Las Vegas GP",
+		"year": 2026,
+		"check": { "driverId": "leclerc", "constructorId": "ferrari", "circuitId": "vegas" }
+	},
+	{
+		"text": "Maybe we should just start communicating in sign language.",
+		"speaker": "Max Verstappen",
+		"team": "Red Bull",
+		"gp": "United States GP",
+		"year": 2026,
+		"check": { "driverId": "max_verstappen", "constructorId": "red_bull", "circuitId": "americas" }
+	},
+	{
+		"text": "Will be wet on pit exit. Enable blue magic.",
+		"speaker": "Marcus Dudley to George Russell",
+		"team": "Mercedes",
+		"gp": "São Paulo GP",
+		"year": 2026,
+		"check": { "driverId": "russell", "constructorId": "mercedes", "circuitId": "interlagos" }
 	}
 ]
