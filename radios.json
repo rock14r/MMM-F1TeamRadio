@@ -16,7 +16,7 @@
 		"check": { "driverId": "raikkonen", "constructorId": "lotus_f1", "circuitId": "yas_marina" }
 	},
 	{
-		"text": "Fernando is faster than you. Can you confirm you understood that message?",
+		"text": "— Fernando is faster than you. Can you confirm you understood that message?",
 		"speaker": "Rob Smedley to Felipe Massa",
 		"team": "Ferrari",
 		"gp": "German GP",
@@ -24,7 +24,7 @@
 		"check": { "driverId": "massa", "constructorId": "ferrari", "circuitId": "hockenheimring" }
 	},
 	{
-		"text": "Valtteri, it's James.",
+		"text": "— Valtteri, it's James.",
 		"speaker": "Mercedes to Valtteri Bottas",
 		"team": "Mercedes",
 		"gp": "Russian GP",
@@ -40,7 +40,7 @@
 		"check": { "driverId": "hamilton", "constructorId": "mercedes", "circuitId": "silverstone", "round": 4 }
 	},
 	{
-		"text": "Michael, no, no, Michael, that was so not right.",
+		"text": "— Michael, no, no, Michael, that was so not right.",
 		"speaker": "Toto Wolff to Michael Masi",
 		"team": "Mercedes",
 		"gp": "Abu Dhabi GP",
@@ -48,7 +48,7 @@
 		"check": { "driverId": "hamilton", "constructorId": "mercedes", "circuitId": "yas_marina" }
 	},
 	{
-		"text": "Multi 21, Seb.",
+		"text": "— Multi 21, Seb.",
 		"speaker": "Red Bull to Sebastian Vettel",
 		"team": "Red Bull",
 		"gp": "Malaysian GP",
@@ -112,7 +112,7 @@
 		"check": { "driverId": "sainz", "constructorId": "ferrari", "circuitId": "red_bull_ring" }
 	},
 	{
-		"text": "Lewis the car is bad, we know. Please drive it.",
+		"text": "— Lewis the car is bad, we know. Please drive it.",
 		"speaker": "Toto Wolff to Lewis Hamilton",
 		"team": "Mercedes",
 		"gp": "Austrian GP",
@@ -136,7 +136,7 @@
 		"check": { "driverId": "leclerc", "constructorId": "ferrari", "circuitId": "albert_park" }
 	},
 	{
-		"text": "Must be the water.",
+		"text": "— Must be the water.",
 		"speaker": "Bryan Bozzi to Charles Leclerc",
 		"team": "Ferrari",
 		"gp": "Australian GP",
@@ -176,7 +176,7 @@
 		"check": { "driverId": "sainz", "constructorId": "ferrari", "circuitId": "marina_bay" }
 	},
 	{
-		"text": "Well done, Max. It's a shame we can't hear you.",
+		"text": "— Well done, Max. It's a shame we can't hear you.",
 		"speaker": "Laurent Mekies to Max Verstappen",
 		"team": "Red Bull",
 		"gp": "Singapore GP",
@@ -184,7 +184,7 @@
 		"check": { "driverId": "max_verstappen", "constructorId": "red_bull", "circuitId": "marina_bay" }
 	},
 	{
-		"text": "Lando, this is Zak from McLaren. Is this the world champion hotline? We did it! We did it!",
+		"text": "— Lando, this is Zak from McLaren. Is this the world champion hotline? We did it! We did it!",
 		"speaker": "Zak Brown to Lando Norris",
 		"team": "McLaren",
 		"gp": "Abu Dhabi GP",
@@ -240,7 +240,7 @@
 		"check": { "driverId": "max_verstappen", "constructorId": "red_bull", "circuitId": "vegas" }
 	},
 	{
-		"text": "Charles, I want to see you after the race before everything.",
+		"text": "— Charles, I want to see you after the race before everything.",
 		"speaker": "Frédéric Vasseur to Charles Leclerc",
 		"team": "Ferrari",
 		"gp": "Las Vegas GP",
@@ -256,7 +256,7 @@
 		"check": { "driverId": "max_verstappen", "constructorId": "red_bull", "circuitId": "americas" }
 	},
 	{
-		"text": "Will be wet on pit exit. Enable blue magic.",
+		"text": "— Will be wet on pit exit. Enable blue magic.",
 		"speaker": "Marcus Dudley to George Russell",
 		"team": "Mercedes",
 		"gp": "São Paulo GP",
@@ -272,7 +272,7 @@
 		"check": { "driverId": "hamilton", "constructorId": "ferrari", "circuitId": "interlagos" }
 	},
 	{
-		"text": "Oscar, you're doing a great race, mate. Let's be careful around our teammate.\n— Stop telling me to f***ing be careful.",
+		"text": "— Oscar, you're doing a great race, mate. Let's be careful around our teammate.\nStop telling me to f***ing be careful.",
 		"speaker": "Tom Stallard and Oscar Piastri",
 		"team": "McLaren",
 		"gp": "Las Vegas GP",

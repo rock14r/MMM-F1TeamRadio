@@ -17,8 +17,22 @@
 	white-space: pre-line;
 }
 
-.f1radio-reply {
+.f1radio-line + .f1radio-line {
+	margin-top: 6px;
+}
+
+.f1radio-team {
 	color: #cfe8ff;
+}
+
+/* Dialogue, like the F1 radio graphic: driver on the left, team on the right */
+.f1radio-dialogue .f1radio-line {
+	max-width: 85%;
+}
+
+.f1radio-dialogue .f1radio-team {
+	margin-left: auto;
+	text-align: right;
 }
 
 .f1radio-meta {

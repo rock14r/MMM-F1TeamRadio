@@ -10,7 +10,7 @@ Module.register("MMM-F1TeamRadio", {
 		avoidRepeat: true, // avoid showing the same message twice in a row
 		showMeta: true, // show driver/team/GP/year
 		showIcon: true, // show the radio icon next to the header
-		replyColor: null // colour of the reply lines in dialogues (null = default light blue from the CSS)
+		teamColor: null // colour of the lines not spoken by the driver (null = default light blue from the CSS)
 	},
 
 	getStyles() {
@@ -95,19 +95,18 @@ Module.register("MMM-F1TeamRadio", {
 
 		const quote = document.createElement("div");
 		quote.className = "f1radio-text bright medium";
-		// Dialogues: lines are separated by "\n"; lines starting with "— " are replies and get their own colour.
-		quote.appendChild(document.createTextNode("“"));
-		String(r.text).split("\n").forEach((line, i) => {
-			if (i > 0) quote.appendChild(document.createTextNode("\n"));
-			const span = document.createElement("span");
-			span.textContent = line;
-			if (line.startsWith("— ")) {
-				span.className = "f1radio-reply";
-				if (this.config.replyColor) span.style.color = this.config.replyColor;
-			}
-			quote.appendChild(span);
+		// Lines are separated by "\n". A line starting with "— " is spoken by someone other than the driver
+		// (engineer, team principal...): it gets its own colour and, in a dialogue, sits on the right.
+		const lines = String(r.text).split("\n");
+		if (lines.length > 1) quote.className += " f1radio-dialogue";
+		lines.forEach((raw) => {
+			const isTeam = raw.startsWith("— ");
+			const line = document.createElement("div");
+			line.className = "f1radio-line" + (isTeam ? " f1radio-team" : "");
+			if (isTeam && this.config.teamColor) line.style.color = this.config.teamColor;
+			line.textContent = "“" + (isTeam ? raw.slice(2) : raw) + "”";
+			quote.appendChild(line);
 		});
-		quote.appendChild(document.createTextNode("”"));
 		wrapper.appendChild(quote);
 
 		if (this.config.showMeta) {
