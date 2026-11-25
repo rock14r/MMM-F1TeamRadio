@@ -10,7 +10,22 @@ Module.register("MMM-F1TeamRadio", {
 		avoidRepeat: true, // avoid showing the same message twice in a row
 		showMeta: true, // show driver/team/GP/year
 		showIcon: true, // show the radio icon next to the header
-		teamColor: null // colour of the lines not spoken by the driver (null = default light blue from the CSS)
+		// Colour of the driver's lines, by team (matched on the "team" field of radios.json, case-insensitive).
+		// Your own entries are merged with these. Lines spoken by someone else (engineers...) stay white.
+		teamColors: {
+			Ferrari: "#F2243D",
+			"Red Bull": "#4A86DB",
+			Mercedes: "#27F4D2",
+			McLaren: "#FF8000",
+			"Aston Martin": "#CEDC00",
+			Alpine: "#FF87BC",
+			Williams: "#64C4FF",
+			"Racing Bulls": "#6692FF",
+			Audi: "#C8CED4",
+			Haas: "#FF5A5F",
+			Cadillac: "#D4AF37",
+			Lotus: "#FFC107"
+		}
 	},
 
 	getStyles() {
@@ -96,14 +111,20 @@ Module.register("MMM-F1TeamRadio", {
 		const quote = document.createElement("div");
 		quote.className = "f1radio-text bright medium";
 		// Lines are separated by "\n". A line starting with "— " is spoken by someone other than the driver
-		// (engineer, team principal...): it gets its own colour and, in a dialogue, sits on the right.
+		// (engineer, team principal...): it stays white and, in a dialogue, sits on the right.
+		// The driver's lines get the colour of the team.
+		const colors = {};
+		Object.entries(Object.assign({}, this.defaults.teamColors, this.config.teamColors)).forEach(([name, c]) => {
+			colors[name.trim().toLowerCase()] = c;
+		});
+		const teamColor = colors[String(r.team || "").trim().toLowerCase()];
 		const lines = String(r.text).split("\n");
 		if (lines.length > 1) quote.className += " f1radio-dialogue";
 		lines.forEach((raw) => {
 			const isTeam = raw.startsWith("— ");
 			const line = document.createElement("div");
 			line.className = "f1radio-line" + (isTeam ? " f1radio-team" : "");
-			if (isTeam && this.config.teamColor) line.style.color = this.config.teamColor;
+			if (!isTeam && teamColor) line.style.color = teamColor;
 			line.textContent = "“" + (isTeam ? raw.slice(2) : raw) + "”";
 			quote.appendChild(line);
 		});
